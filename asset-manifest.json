@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/anya-tyulkina/hw2.git/static/css/main.49e7b22a.css",
-    "main.js": "/anya-tyulkina/hw2.git/static/js/main.abff788e.js",
-    "static/js/787.66cb4309.chunk.js": "/anya-tyulkina/hw2.git/static/js/787.66cb4309.chunk.js",
-    "static/media/avatar.png": "/anya-tyulkina/hw2.git/static/media/avatar.d947cb9d0d13765666b6.png",
-    "index.html": "/anya-tyulkina/hw2.git/index.html",
-    "main.49e7b22a.css.map": "/anya-tyulkina/hw2.git/static/css/main.49e7b22a.css.map",
-    "main.abff788e.js.map": "/anya-tyulkina/hw2.git/static/js/main.abff788e.js.map",
-    "787.66cb4309.chunk.js.map": "/anya-tyulkina/hw2.git/static/js/787.66cb4309.chunk.js.map"
+    "main.css": "/hw2/static/css/main.49e7b22a.css",
+    "main.js": "/hw2/static/js/main.3a38cbd8.js",
+    "static/js/787.66cb4309.chunk.js": "/hw2/static/js/787.66cb4309.chunk.js",
+    "static/media/avatar.png": "/hw2/static/media/avatar.d947cb9d0d13765666b6.png",
+    "index.html": "/hw2/index.html",
+    "main.49e7b22a.css.map": "/hw2/static/css/main.49e7b22a.css.map",
+    "main.3a38cbd8.js.map": "/hw2/static/js/main.3a38cbd8.js.map",
+    "787.66cb4309.chunk.js.map": "/hw2/static/js/787.66cb4309.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.49e7b22a.css",
-    "static/js/main.abff788e.js"
+    "static/js/main.3a38cbd8.js"
   ]
 }
