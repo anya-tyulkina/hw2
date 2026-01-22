@@ -2,15 +2,21 @@
 }
 
 .input {
+    outline: none;
 }
 
 .inputWrapper {
+    display: flex;
+    flex-direction: column;
+    color: red;
 }
 
 .superInput {
 }
 
 .errorInput {
+    border-color: red;
+
 }
 
 .errorInput:focus {
