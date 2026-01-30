@@ -2,6 +2,15 @@
 }
 
 .header {
+    display: flex;
+    justify-content: space-between;
+    padding: 17px 70px;
+
+    margin-bottom: 47px;
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 0px 0px 2px 0px rgba(29, 33, 38, 0.1),
+                0px 0px 40px 0px rgba(29, 33, 38, 0.13);
+
 }
 
 .header h1 {
