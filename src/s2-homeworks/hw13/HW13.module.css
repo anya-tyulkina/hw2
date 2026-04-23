@@ -22,7 +22,7 @@
     width: 510px;
     display: flex;
     flex-direction: column;
-    gap: 12px;
+    /*gap: 12px;*/
 }
 
 .code {
@@ -31,6 +31,8 @@
     font-size: 30px;
     line-height: 100%;
     letter-spacing: 0%;
+
+    padding-bottom: 12px;
 }
 
 .text {
@@ -41,4 +43,9 @@
     letter-spacing: 0%;
 }
 .info {
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
 }

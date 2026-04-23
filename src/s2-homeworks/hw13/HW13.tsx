@@ -38,29 +38,30 @@ const HW13 = () => {
             .then((res) => {
                 setCode('Код 200!')
                 setImage(success200)
-                setText('...всё ок)')
-                setInfo('')
+                setText(res.data.errorText)
+                setInfo(res.data.info)
                 // дописать
 
             })
             .catch((e) => {
                 // дописать
 
+                console.log(e)
                 if (e.response.status === 500) {
                     setCode('Ошибка 500!')
                     setImage(error500)
-                    setText('эмитация ошибки на сервере')
-                    setInfo('')
+                    setText(e.response.data.errorText)
+                    setInfo(e.response.data.info)
                 } else if (e.response.status === 400) {
                     setCode('Ошибка 400!')
                     setImage(error400)
-                    setText('Ты не отправил success в body вообще!')
-                    setInfo('')
+                    setText(e.response.data.errorText)
+                    setInfo(e.response.data.info)
                 } else {
                     setCode('Error!')
                     setImage(errorUnknown)
-                    setText('Network Error AxiosError')
-                    setInfo('')
+                    setText(e.message)
+                    setInfo(e.name)
                 }
             })
             .finally(()=> setLoading(false))
