@@ -1,11 +1,14 @@
 .pagination {
     display: flex;
+    align-items: center;
+
+    padding-bottom: 36px;
 }
 
 .text1 {
-
+    padding-right: 10px;
 }
 
 .text2 {
-
+    padding-left: 6px;
 }

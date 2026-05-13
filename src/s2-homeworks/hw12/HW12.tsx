@@ -15,7 +15,7 @@ import {AppStoreType} from "../hw10/bll/store";
 
 export type ThemesType = {
     id: number
-    value: string
+    value: string | number
 }
 
 const themes = [
